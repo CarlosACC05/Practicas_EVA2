@@ -14,6 +14,24 @@ public class Bicicleta extends Vehiculo {
     private int velocidades;
 
     public Bicicleta() {
+        this.ruedas = 0;
+        this.velocidades = 0;
+    }
+
+    public int getRuedas() {
+        return ruedas;
+    }
+
+    public void setRuedas(int ruedas) {
+        this.ruedas = ruedas;
+    }
+
+    public int getVelocidades() {
+        return velocidades;
+    }
+
+    public void setVelocidades(int velocidades) {
+        this.velocidades = velocidades;
     }
 
     public Bicicleta(int ruedas, int velocidades, int velocidad, String marca, String color, String modelo) {
