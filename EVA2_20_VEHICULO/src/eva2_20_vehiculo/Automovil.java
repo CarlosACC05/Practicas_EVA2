@@ -14,6 +14,33 @@ public class Automovil extends Vehiculo  {
     private String tipo;
 
     public Automovil() {
+        this.cilindros = 0;
+        this.combustible = "----";
+        this.tipo = "----";
+    }
+
+    public int getCilindros() {
+        return cilindros;
+    }
+
+    public void setCilindros(int cilindros) {
+        this.cilindros = cilindros;
+    }
+
+    public String getCombustible() {
+        return combustible;
+    }
+
+    public void setCombustible(String combustible) {
+        this.combustible = combustible;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
     }
 
     public Automovil(int cilindros, String combustible, String tipo, int velocidad, String marca, String color, String modelo) {
